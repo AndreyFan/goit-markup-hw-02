@@ -1,0 +1,153 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --text: #434455;
+  --dark-text: #2e2f42;
+  --aktiv: #404bbf;
+}
+.list {
+  list-style: none;
+}
+
+.link,
+.menu-link,
+.link-logo {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text);
+  background: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-text);
+}
+
+/* Header */
+.link-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--dark-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--aktiv);
+}
+
+.address {
+  font-family: inherit;
+  color: var(--text);
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+/* Hero */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  /* увага !!! потім змінити колір текста на 
+  color: #ffffff; */
+}
+.button-hero {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+
+  color: #ffffff;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background: #404bbf;
+}
+
+/* Advantages Section */
+
+.advantages-text {
+  line-height: 1.5;
+}
+
+/* doing */
+.doing-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-transform: capitalize;
+  color: var(--dark-text);
+}
+
+/* team */
+.section-team {
+  background: #f4f4fd;
+}
+.job-title {
+  line-height: 1.5;
+}
+
+/* footer */
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+
+/* Page PORTFOLIO */
+.button-filtr-portfolio {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.button-filtr-portfolio:hover,
+.button-filtr-portfolio:focus {
+  background: var(--aktiv);
+  color: #ffffff;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+}
