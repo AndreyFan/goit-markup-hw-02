@@ -124,7 +124,6 @@ h3 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize;
   color: var(--dark-text);
 }
 
