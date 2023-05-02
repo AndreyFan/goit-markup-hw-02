@@ -5,6 +5,7 @@
   --dark-text: #2e2f42;
   --aktiv: #404bbf;
   --iris: #4d5ae5;
+  --light: #f4f4fd;
 }
 .list {
   list-style: none;
@@ -131,7 +132,7 @@ h3 {
 
 /* team */
 .section-team {
-  background: #f4f4fd;
+  background: var(--light);
 }
 .team {
   background-color: #ffffff;
@@ -145,27 +146,29 @@ h3 {
   background: #2e2f42;
 }
 .footer .logo-footer {
-  color: #f4f4fd;
+  color: var(--light);
 }
 .footer-text {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--light);
 }
 
 /* Page PORTFOLIO */
-.button-filtr-portfolio {
+.button-filtr {
   color: var(--iris);
-  background-color: #e7e9fc;
+  background-color: var(--light);
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
+  ;
 }
 
-.button-filtr-portfolio:hover,
-.button-filtr-portfolio:focus {
+.button-filtr:hover,
+.button-filtr:focus {
   background: var(--aktiv);
   color: #ffffff;
 }
