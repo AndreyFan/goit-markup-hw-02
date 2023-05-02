@@ -118,13 +118,14 @@ h3 {
 }
 
 /* doing */
-.doing-team-title {
+.doing-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--dark-text);
 }
 
