@@ -122,8 +122,10 @@ h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 111%;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--dark-text);
 }
 
