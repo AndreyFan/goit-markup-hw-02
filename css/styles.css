@@ -67,10 +67,14 @@ h3 {
 
 .address {
   font-family: inherit;
+  font-style: normal;
   line-height: 1.5;
   color: var(--text);
 }
 
+.header-address {
+  font-style: normal;
+}
 .address:hover,
 .address:focus {
   color: #404bbf;
