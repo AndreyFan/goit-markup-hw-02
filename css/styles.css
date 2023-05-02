@@ -118,7 +118,7 @@ h3 {
 }
 
 /* doing */
-.doing-title {
+.doing-team-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -131,6 +131,9 @@ h3 {
 /* team */
 .section-team {
   background: #f4f4fd;
+}
+.team {
+  background-color: #ffffff;
 }
 .job-title {
   line-height: 1.5;
