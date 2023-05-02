@@ -154,7 +154,7 @@ h3 {
 
 /* Page PORTFOLIO */
 .button-filtr-portfolio {
-  color: #4d5ae5;
+  color: var(--iris);
   background-color: #e7e9fc;
   font-style: normal;
   font-weight: 500;
