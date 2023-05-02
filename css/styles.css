@@ -155,16 +155,17 @@ h3 {
 
 /* Page PORTFOLIO */
 .button-filtr {
-  color: var(--iris);
-  background-color: var(--light);
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em
+  line-height: 150%;
+
   align-items: center;
   text-align: center;
-  ;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--light);
 }
 
 .button-filtr:hover,
