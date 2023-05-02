@@ -4,14 +4,13 @@
   --text: #434455;
   --dark-text: #2e2f42;
   --aktiv: #404bbf;
+  --iris: #4d5ae5;
 }
 .list {
   list-style: none;
 }
 
-.link,
-.menu-link,
-.link-logo {
+.link {
   text-decoration: none;
 }
 button {
@@ -33,16 +32,27 @@ h3 {
 }
 
 /* Header */
-.link-logo {
-  font-family: 'Raleway';
+.logo {
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--iris);
+}
+
+.logo-part {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-text);
 }
 .menu-link {
   font-style: normal;
@@ -57,6 +67,8 @@ h3 {
 
 .address {
   font-family: inherit;
+  font-style: normal;
+  line-height: 1.5;
   color: var(--text);
 }
 
