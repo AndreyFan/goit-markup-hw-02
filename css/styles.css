@@ -144,13 +144,7 @@ h3 {
 .footer {
   background: #2e2f42;
 }
-.footer-logo {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.logo-footer {
   color: #f4f4fd;
 }
 .footer-text {
