@@ -160,10 +160,9 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-
+  letter-spacing: 0.04em;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
   color: var(--iris);
   background: var(--light);
 }
@@ -174,6 +173,17 @@ h3 {
   color: #ffffff;
 }
 
+.portfolio-caption {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--dark-text);
+}
+
 .portfolio-text {
   line-height: 1.5;
+  color: var(--text);
 }
