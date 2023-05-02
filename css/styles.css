@@ -80,17 +80,21 @@ h3 {
   color: #404bbf;
 }
 /* Hero */
+.hero {
+  background-color: var(--dark-text);
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  /* увага !!! потім змінити колір текста на 
-  color: #ffffff; */
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .button-hero {
   font-weight: 500;
-  display: flex;
+  font-size: 16px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
